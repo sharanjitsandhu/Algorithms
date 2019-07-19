@@ -27,7 +27,8 @@ def eating_cookies(n, cache=None):
     return cache[n]
 
 
-print(eating_cookies(5))
+# 1(0) + 1(1) + 2(2) + 4(3) + 7(4) = 13 ##sum the previous three numbers in the sequence.
+print(eating_cookies(10))
 
 # if __name__ == "__main__":
 #     if len(sys.argv) > 1:
